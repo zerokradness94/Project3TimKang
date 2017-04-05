@@ -578,7 +578,7 @@ body, html {
 }
 
 body {
-	background-image:url("backgroundPic.jpg");
+	background-image:url("../pictures/backgroundPic.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 }
