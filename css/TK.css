@@ -475,8 +475,21 @@ template {
 	background-color: gray;
 }
 
+#headerTwo {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#h1, #footer p {
+	text-align: center;
+}
+
 nav#navigating {
 	width: 100%;
+	display: inline-block;
+    text-align: center;
+	margin:0 auto;
+	float: left;
 }
 
 nav#navigating ul{
@@ -484,11 +497,14 @@ nav#navigating ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	width: 800px;
+	margin: 0 auto;
 }
 
 nav#navigating ul li{
 	float: left;
-	width: 19%;
+	display: inline-block;
+    text-align: center;
 }	
 
 nav#navigating ul li a{
@@ -596,3 +612,8 @@ body {
 	top: 0px;	
 	left: 0px;
 }
+
+#miniMargin, #margin2 {
+	margin: 0px 0px 0px 30px;
+}
+
