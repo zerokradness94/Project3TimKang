@@ -547,6 +547,7 @@ nav#navigating ul li a:hover{
 	color: mediumvioletred;
 	font-weight: 800;
 	font-size: 40px;
+	margin: 100px 0px 0px 30px;
 }
 
 #education, #workhistory, #information, #classes {
