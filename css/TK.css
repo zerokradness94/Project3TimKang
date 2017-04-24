@@ -492,6 +492,7 @@ nav#navigating {
 	float: left;
 }
 
+@media screen and (min-width: 600px){
 nav#navigating ul{
 	list-style-type: none;
 	margin: 0;
@@ -499,6 +500,7 @@ nav#navigating ul{
 	overflow: hidden;
 	width: 800px;
 	margin: 0 auto;
+}
 }
 
 nav#navigating ul li{
