@@ -49,7 +49,19 @@
           map: map,
 		  draggable: true,
           animation: google.maps.Animation.DROP,
-          icon: image
+          icon: image,
+		  title: 'Click to zoom out'
+        });
+		
+		map.addListener('center_changed', function() {
+          window.setTimeout(function() {
+            map.panTo(marker.getPosition());
+          }, 3000);
+        });
+
+        marker.addListener('click', function() {
+          map.setZoom(10);
+          map.setCenter(marker.getPosition());
         });
 		}
     </script>
