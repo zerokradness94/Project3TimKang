@@ -31,7 +31,7 @@
 				<li><a href="Resume.html">My Resume</a></li>
 				<li><a href="Classes.html">My Classes</a></li>
 				<li><a href="LeagueCareer.html">My League Career</a></li>
-				<li><a href="Map.html">Map of IIT</a></li>
+				<li><a href="Map.html">Map</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -40,12 +40,12 @@
 		var map;
 		function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 41.831420, lng: -87.627188},
+          center: {lat: 42.0383714, lng: -87.8503875},
           zoom: 16
         });
 		var image = 'pictures/Pointer.png';
         var marker = new google.maps.Marker({
-          position: {lat: 41.831420, lng: -87.627188},
+          position: {lat: 42.0383714, lng: -87.8503875},
           map: map,
 		  draggable: true,
           animation: google.maps.Animation.DROP,
