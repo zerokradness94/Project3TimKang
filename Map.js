@@ -14,7 +14,7 @@ function init() {
 	var marker = new google.maps.Marker({
     	map: map,
     	position: new google.maps.LatLng(41.831420, -87.627188),
-    	icon: 'Pointer.png',
+    	icon: 'pictures/Pointer.png',
     	animation: google.maps.Animation.DROP,
     	title: 'IIT'
     });
@@ -33,7 +33,7 @@ function init() {
     function moveMap(loc){
       //console.log(loc.coords);
       map.panTo(new google.maps.LatLng(loc.coords.latitude, loc.coords.longitude));
-      map.setZoom(18);
+      map.setZoom(16);
     }
 
     document.getElementById('mylocation-btn').addEventListener('click', function(){
